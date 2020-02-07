@@ -1,0 +1,20 @@
+ │ /var/www/symfony/features/bootstrap/FeatureContext.php:93:
+      │ string(368) "{"@context":"\/api\/contexts\/Comment","@id":"\/api\/blog_posts\/101\/comments","@type":"hydra:Collection","hydra:member":[{"@id":"\/api\/comments\/349","@type":"Comment","id":349,"content":"It\u0027s a first comment published to this post?","published":"2019-12-11T09:29:47+01:00","author":"\/api\/users\/1","blogPost":"\/api\/blog_posts\/101"}],"hydra:totalItems":1}"
+      │ /var/www/symfony/features/bootstrap/FeatureContext.php:94:
+      │ string(383) "{
+      │   "@context":"/api/contexts/Comment",
+      │   "@id":"/api/blog_posts/101/comments",
+      │   "@type":"hydra:Collection",
+      │   "hydra:member":[
+      │     {
+      │       "@id": "@string@",
+      │       "@type": "Comment",
+      │       "id": @integer@,
+      │       "content": "It\u0027s a first comment published to this post?",
+      │       "published": "@string@.isDateTime()",
+      │       "author": @string@
+      │     }
+      │   ],
+      │   "hydra:totalItems":1
+      │ }"
+      │
